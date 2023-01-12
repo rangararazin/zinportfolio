@@ -31,7 +31,7 @@ export const Resume = () => {
           </div>
           <div className="text-center p-1">
             <h3 className="text-2xl py-2 md:text-3xl font-bold ">Skills</h3>
-            <ul className="list-disc flex space-x-6 flex-wrap mt-1  font-semibold text-gray-700">
+            <ul className="text-lg list-disc flex space-x-6 flex-wrap mt-1 leading-8 font-semibold text-gray-700 ">
               <li>Javascript</li>
               <li>Node.js</li>
               <li>Express.js</li>
