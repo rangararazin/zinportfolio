@@ -3,8 +3,8 @@ export const Resume = () => {
     <div>
       <main className="bg-gray-100 px-10 md:px-20 lg:px-40 ">
         <section className="min-h-screen">
-          <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
+          <div className="text-center p-5">
+            <h2 className="text-5xl py-1 text-teal-600 font-medium md:text-6xl">
               Razin Rangara
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl ">
@@ -30,7 +30,7 @@ export const Resume = () => {
             </p>
           </div>
           <div className="text-center p-1">
-            <h3 className="text-2xl py-2 md:text-3xl font-bold ">Skills</h3>
+            <h3 className="text-2xl md:text-3xl font-bold ">Skills</h3>
             <ul className="text-lg list-disc flex space-x-6 flex-wrap mt-1 leading-8 font-semibold text-gray-700 ">
               <li>Javascript</li>
               <li>Node.js</li>
