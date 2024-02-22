@@ -8,6 +8,7 @@ export const Experience = ({ title, descrip }) => {
 
   const renderBulletPoints = () => {
     // Split descrip by newline character to get individual bullet points
+    //eslint-disable-next-line
     const bulletPoints = descrip.split("\.");
     return (
       <ul className="list-disc ml-8">
