@@ -3,10 +3,10 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 export const Contact = () => {
   return (
-    <div>
-      <main className="bg-white px-10 md:px-20 lg:px-40 ">
-        <section className="min-h-screen">
-          <div className="text-center p-10">
+    <div className="flex justify-center h-screen bg-gray-100">
+      
+        <section className="text-center">
+          <div className="p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Razin Rangara
             </h2>
@@ -23,7 +23,9 @@ export const Contact = () => {
             </a>
           </div>
         </section>
-      </main>
+      
     </div>
   );
 };
+
+export default Contact;

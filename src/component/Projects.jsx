@@ -9,7 +9,7 @@ import {
 export const Projects = () => {
   return (
     <>
-      <section className="all-cards">
+      <section className="all-cards" >
         <Card className="main-card">
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">

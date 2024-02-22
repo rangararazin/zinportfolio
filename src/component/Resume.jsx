@@ -8,48 +8,19 @@ export const Resume = () => {
               Razin Rangara
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl ">
-              Junior Developer and Tester.
+              Software Test Analyst/Quality Assurance Engineer
             </h3>
             <p className="text-2xl py-5 leading-8 text-gray-800 md-text-2xl max-w-xl mx-auto ">
-              A broadminded and highly motivated{" "}
-              <b>software developer graduate</b> and
-              <b> software QA tester</b> with above 1 year in software testing
-              experience both web-based/mobile applications.
+            I am a meticulous and adaptable professional with a proven track record in software testing and quality assurance, currently specializing in user acceptance testing (UAT) and exploratory testing. With a solid background in manual testing methodologies and a keen eye for detail, I excel in ensuring software functionality, reliability, and adherence to business requirements.
               <br />
               <br />
-              Recently graduated from{" "}
-              <a href="https://northcoders.com/">
-                <b>Northcoders</b>
-              </a>{" "}
-              fullstack software development bootcamp.
+              I am currently delving into the fundamentals of test automation while also exploring the realm of Cloud solution architecture.
               <br />
               <br />
-              Becoming a successful professional and nurturing my skills and
-              experience along with giving new heights to the organization's
-              success is my career objective.
+              With an eye for innovation, I actively seek opportunities to expand my expertise. Through personal projects and online courses, I stay updated on industry trends.
             </p>
           </div>
-          <div className="text-center p-1">
-            <h3 className="text-2xl md:text-3xl font-bold ">Skills</h3>
-            <ul className="text-lg list-disc flex space-x-6 flex-wrap mt-1 leading-8 font-semibold text-gray-700 ">
-              <li>Javascript</li>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>Jest</li>
-              <li>React</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Axios</li>
-              <li>SQL/noSQL</li>
-              <li>TDD</li>
-              <li>Unit Testing</li>
-              <li>Functional Testing</li>
-              <li>Regression Testing</li>
-              <li>Exploratory Testing</li>
-              <li>UI/UX Testing</li>
-              <li>End-to-End Testing</li>
-            </ul>
-          </div>
+          
         </section>
       </main>
     </div>
