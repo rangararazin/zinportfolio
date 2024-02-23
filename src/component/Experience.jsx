@@ -27,7 +27,7 @@ export const Experience = ({ title, descrip }) => {
           onClick={() => setAccordionOpen(!accordionOpen)}
           className="flex justify-between w-full items-center px-3 py-1" 
         >
-          <span className="text-gray-800 font-medium text-xl pt-5 pb-1 ">{title}</span>
+          <span className="text-gray-800 font-medium text-xl pt-5 pb-1 font-extrabold">{title}</span>
           
           {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
           <svg
@@ -62,7 +62,7 @@ export const Experience = ({ title, descrip }) => {
             : "grid-rows-[0fr] opacity-0"
         }`}
       >
-        <div className="overflow-hidden text-white">{renderBulletPoints()}</div>
+        <div className="overflow-hidden text-stone-900">{renderBulletPoints()}</div>
       </div>
        
     {renderBulletPoints}
