@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { AppBar, Toolbar, IconButton, Menu, MenuItem, Typography, Tab, Tabs, useMediaQuery } from "@mui/material";
+import { AppBar, Toolbar, IconButton, Menu, MenuItem, Typography, Tab, Tabs, useMediaQuery, Box } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from "react-router-dom";
+import { blue } from "@mui/material/colors";
 
 const Navbar = () => {
   const [value, setValue] = useState("all");
@@ -30,7 +31,7 @@ const Navbar = () => {
       <Toolbar>
         {isMobile ? (
           <>
-          <Typography variant="h6" style={{ flexGrow: 1 }}>
+            <Typography variant="h6" style={{ flexGrow: 1 }}>
               RR
             </Typography>
             <IconButton
@@ -55,14 +56,28 @@ const Navbar = () => {
           </>
         ) : (
           <>
-            <Typography variant="h6" style={{ flexGrow: 1 }}>
-              RR
-            </Typography>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                width: 50,
+                height: 50,
+                borderRadius: "50%",
+                background: "rgb(209 213 219)", // Change color as needed
+              }}
+            >
+              <Typography class="text-teal-600 font-extrabold font-mono text-2xl"  variant="h6"  sx={{ flexGrow: 1, textAlign: "center" }}>
+                RR
+              </Typography>
+            </Box>
             <Tabs
               value={value}
-              textColor="secondary"
+              textColor="white"
+              te
               indicatorColor="secondary"
               aria-label="secondary tabs example"
+              
             >
               <Tab
                 value="about"

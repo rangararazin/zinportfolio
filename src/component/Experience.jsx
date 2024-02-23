@@ -20,7 +20,7 @@ export const Experience = ({ title, descrip }) => {
   };
 
   return (
-    <div className="bg-gray-400 pt-0 rounded-lg py-4 mb-3 ">
+    <div className="bg-gray-200  pt-0 rounded-lg  py-4 mb-3 border border-gray-300">
 
    
         <button

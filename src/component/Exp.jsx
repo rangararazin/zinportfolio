@@ -14,7 +14,7 @@ stories, facilitating effective test planning, defect resolutions and ensure sof
 expectations.Developing detailed test cases and scenarios based on user stories and acceptance criteria,
 ensuring the thorough coverage.Detecting, documenting, and tracking defects using industry-standard defect tracking tools (JIRA),
 ensuring accurate communication with development teams and project stakeholders, facilitating
-informed decision-making.erforming regression testing to verify that new software releases do not introduce issues into
+informed decision-making.Performing regression testing to verify that new software releases do not introduce issues into
 existing functionality.Demonstrating adaptability to evolving project priorities and timelines
         "
       />

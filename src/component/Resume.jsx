@@ -22,6 +22,8 @@ export const Resume = () => {
           </div>
           
         </section>
+
+        
       </main>
     </div>
   );
