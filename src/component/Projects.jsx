@@ -94,7 +94,7 @@ export const Projects = () => {
           </CardContent>
           <CardActions className="card-button">
             <Button size="small">
-              <a href="">
+              <a href="test">
                 Coming Soon...
               </a>
             </Button>

@@ -1,3 +1,16 @@
+import { GrTestDesktop } from "react-icons/gr";
+import { TbCloudComputing } from "react-icons/tb";
+import SvgIcon from '@mui/material/SvgIcon';
+import BugReportIcon from '@mui/icons-material/BugReport';
+import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
+import { FaDiagramProject } from "react-icons/fa6";
+import AccountTreeIcon from '@mui/icons-material/AccountTree';
+import { FcCollaboration } from "react-icons/fc";
+
+
+
+
+
 export const Resume = () => {
   return (
     <div>
@@ -9,21 +22,32 @@ export const Resume = () => {
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl ">
               Software Test Analyst/Quality Assurance Engineer
+
             </h3>
             <p className="text-2xl py-5 leading-8 text-gray-800 md-text-2xl max-w-xl mx-auto ">
-            I am a meticulous and adaptable professional with a proven track record in software testing and quality assurance, currently specializing in user acceptance testing (UAT) and exploratory testing. With a solid background in manual testing methodologies and a keen eye for detail, I excel in ensuring software functionality, reliability, and adherence to business requirements.
-              <br />
-              <br />
-              I am currently delving into the fundamentals of test automation while also exploring the realm of Cloud solution architecture.
-              <br />
-              <br />
-              With an eye for innovation, I actively seek opportunities to expand my expertise. Through personal projects and online courses, I stay updated on industry trends.
+              Dynamic software tester fueled by a passion for uncovering bugs
+              <span className="inline-flex items-center  px-2"><BugReportIcon className="ml-1"/></span>     
+              and ensuring flawless software experiences. With a passion for precision and an eye for detail, I collaborate 
+              <span className="inline-flex items-center px-2"><FcCollaboration className="ml-1" /></span> 
+               seamlessly to drive innovation and ensure quality assurance at every stage of development.
+            </p>
+            <p className="text-2xl py-5 leading-8 text-gray-800 md-text-2xl max-w-xl mx-auto ">
+              Now, I'm diving into test automation basics and exploring cloud solution architecture
+              <span className="inline-flex items-center px-2"><TbCloudComputing className="fill-indigo-500  ml-1" />  </span>,
+              eager to learn and innovate.
+            </p>
+            <p className="text-2xl py-5 leading-8 text-gray-800 md-text-2xl max-w-xl mx-auto ">
+              I love expanding my skills through personal projects
+              <span className="inline-flex items-center px-2"><AccountTreeIcon className="ml-1" />  </span>,
+               and online courses
+               <span className="inline-flex items-center px-2"><LocalLibraryIcon className="ml-1" />  </span>
+               , always staying ahead of the curve!
             </p>
           </div>
-          
+
         </section>
 
-        
+
       </main>
     </div>
   );
