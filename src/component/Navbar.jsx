@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AppBar, Toolbar, IconButton, Menu, MenuItem, Typography, Tab, Tabs, useMediaQuery} from "@mui/material";
+import { AppBar, Toolbar, IconButton, Menu, MenuItem, Typography, Tab, Tabs, useMediaQuery } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from "react-router-dom";
 
@@ -57,27 +57,27 @@ const Navbar = () => {
         ) : (
           <>
             <Typography
-      variant="h6"
-      style={{
-        display: "inline-block",
-        width: 50,
-        height: 50,
-        borderRadius: "50%",
-        textAlign: "center",
-        lineHeight: "50px", // Center text vertically
-        background: "rgb(29 78 216)", // Change color as needed
-        fontWeight: 600
-      }}
-    >
-      RR
-    </Typography>
+              variant="h6"
+              style={{
+                display: "inline-block",
+                width: 50,
+                height: 50,
+                borderRadius: "50%",
+                textAlign: "center",
+                lineHeight: "50px", // Center text vertically
+                background: "rgb(29 78 216)", // Change color as needed
+                fontWeight: 600
+              }}
+            >
+              RR
+            </Typography>
             <Tabs
               value={value}
               textColor="white"
               te
               indicatorColor="secondary"
               aria-label="secondary tabs example"
-              
+
             >
               <Tab
                 value="about"

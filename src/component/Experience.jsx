@@ -1,10 +1,8 @@
 import React from "react";
 import { useState } from "react";
 
-
 export const Experience = ({ title, descrip }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
-
 
   const renderBulletPoints = () => {
     // Split descrip by newline character to get individual bullet points
@@ -21,7 +19,6 @@ export const Experience = ({ title, descrip }) => {
 
   return (
     <div className="bg-gray-200  pt-0 rounded-lg  py-4 mb-3 border border-gray-300">
-
    
         <button
           onClick={() => setAccordionOpen(!accordionOpen)}

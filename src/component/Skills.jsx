@@ -33,9 +33,8 @@ export const Skills = () => {
             {shuffledSkills.map((skill, index) => (
               <div
                 key={index}
-                className={`px-6 py-4 m-2 rounded-lg shadow-lg text-lg font-medium text-center ${
-                  greyShades[Math.floor(Math.random() * greyShades.length)]
-                }`}
+                className={`px-6 py-4 m-2 rounded-lg shadow-lg text-lg font-medium text-center ${greyShades[Math.floor(Math.random() * greyShades.length)]
+                  }`}
               >
                 {skill}
               </div>

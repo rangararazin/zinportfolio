@@ -1,15 +1,9 @@
-import { GrTestDesktop } from "react-icons/gr";
+
 import { TbCloudComputing } from "react-icons/tb";
-import SvgIcon from '@mui/material/SvgIcon';
 import BugReportIcon from '@mui/icons-material/BugReport';
 import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
-import { FaDiagramProject } from "react-icons/fa6";
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import { FcCollaboration } from "react-icons/fc";
-
-
-
-
 
 export const Resume = () => {
   return (
@@ -26,10 +20,10 @@ export const Resume = () => {
             </h3>
             <p className="text-2xl py-5 leading-8 text-gray-800 md-text-2xl max-w-xl mx-auto ">
               Dynamic software tester fueled by a passion for uncovering bugs
-              <span className="inline-flex items-center  px-2"><BugReportIcon className="ml-1"/></span>     
-              and ensuring flawless software experiences. With a passion for precision and an eye for detail, I collaborate 
-              <span className="inline-flex items-center px-2"><FcCollaboration className="ml-1" /></span> 
-               seamlessly to drive innovation and ensure quality assurance at every stage of development.
+              <span className="inline-flex items-center  px-2"><BugReportIcon className="ml-1" /></span>
+              and ensuring flawless software experiences. With a passion for precision and an eye for detail, I collaborate
+              <span className="inline-flex items-center px-2"><FcCollaboration className="ml-1" /></span>
+              seamlessly to drive innovation and ensure quality assurance at every stage of development.
             </p>
             <p className="text-2xl py-5 leading-8 text-gray-800 md-text-2xl max-w-xl mx-auto ">
               Now, I'm diving into test automation basics and exploring cloud solution architecture
@@ -39,15 +33,13 @@ export const Resume = () => {
             <p className="text-2xl py-5 leading-8 text-gray-800 md-text-2xl max-w-xl mx-auto ">
               I love expanding my skills through personal projects
               <span className="inline-flex items-center px-2"><AccountTreeIcon className="ml-1" />  </span>,
-               and online courses
-               <span className="inline-flex items-center px-2"><LocalLibraryIcon className="ml-1" />  </span>
-               , always staying ahead of the curve!
+              and online courses
+              <span className="inline-flex items-center px-2"><LocalLibraryIcon className="ml-1" />  </span>
+              , always staying ahead of the curve!
             </p>
           </div>
 
         </section>
-
-
       </main>
     </div>
   );
