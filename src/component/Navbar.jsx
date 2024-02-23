@@ -2,7 +2,7 @@ import { useState } from "react";
 import { AppBar, Toolbar, IconButton, Menu, MenuItem, Typography, Tab, Tabs, useMediaQuery, Box } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from "react-router-dom";
-import { blue } from "@mui/material/colors";
+
 
 const Navbar = () => {
   const [value, setValue] = useState("all");
