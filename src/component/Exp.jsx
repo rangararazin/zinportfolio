@@ -6,7 +6,7 @@ const Exp = () => {
     <div className="p-4 bg-gray-100">
 
       <Experience
-        title="User Acceptance Tester – The Lettings Hub | Peterborough | June 2023 – Present"
+        title="User Acceptance Tester – The Lettings Hub | Peterborough | Jun 2023 – Present"
         descrip="Conducting user acceptance testing (UAT) and exploratory testing for various software applications
         to verify system functionality, usability adherence to business requirements, and specifications.
         Collaborating closely with change manager, developers, and business analysts to understand user
@@ -19,14 +19,14 @@ existing functionality.Demonstrating adaptability to evolving project priorities
         "
       />
       <Experience
-        title="Manual Test Analyst – AAR Software Ltd | Leicester | Jan 2023 – Jun2023"
+        title="Manual Test Analyst – AAR Software Ltd | Leicester | Jan 2023 – Jun 2023"
         descrip="Analyzed client requirements for testing needs
         .Estimated and prioritized testing tasks to meet project deadlines
         .Executed test cases based on requirements, ensuring software functionality and reliability
         .Reported bugs to the development team with clear communication
         .Collaborated in an agile environment with cross-functional teams for timely project delivery"
       />
-      <Experience title="Traffic Office Administrator - Royal Mail | Northampton | Jul 2021 – June2023" descrip="Assisting in maintaining the quick, efficient, and safe operation of the Transport Office using
+      <Experience title="Traffic Office Administrator - Royal Mail | Northampton | Jul 2021 – June 2023" descrip="Assisting in maintaining the quick, efficient, and safe operation of the Transport Office using
 organisational and communication skills.Allocating vehicles and monitoring vehicle defects to ensure compliance with safety standards.Providing instructions to drivers regarding their duties and responsibilities.
 Working with in-house driver attendance, vehicle, and trailer tracking systems, including
 maintaining attendance records, and debriefing drivers after their duties were completed.Adapting to changing priorities and demonstrating flexibility in meeting the needs of the Transport
@@ -45,11 +45,31 @@ Microsoft SQL Server, MS Excel" />
 
       <Experience title="Quality Assurance Intern - 1Rivet | Gujarat, India | Dec 2018 – Apr 2019" descrip="Assisted in developing and implementing quality assurance processes.Conducted functional testing of software applications to ensure they met quality standards.Assisted with user acceptance testing (UAT) to ensure software met client requirements.Utilised testing tools such as Jira, Selenium, and TestNG to support testing efforts.Assisted in the documentation of test plans, test cases, and test results.Participated at all stages of SDLC, STLC and Bug life Cycle" />
 
+      <Experience title="Travel Consultant - Destination Travel Word | Gujarat, India | Apr
+            2017 – Nov 2018" descrip="Organized itinerary/travels from beginning to end, including
+            booking tickets, accommodation, transportation, managing visa
+            application process, passport application process" />
+
+
+      <Experience title="Teaching Assistant - Databank Computer Education | Gujarat, India |
+            Jun 2016 - Mar 2017" descrip=" Assisted teachers in preparing the lesson materials. Helped and
+            supervised students throughout their courses
+            " />
+      <Experience title="Data Entry Specialist - District Industries Centre | Gujarat, India
+            | Mar 2016- May 2016" descrip="Processed and compiled the data from MS Excel into the system
+            provided by government, generated and exported data reports,
+            spreadsheets, and documents as and when needed" />
+
+
+
+
+      {/* <Experience title="Firebase or Supabase?" descrip="I am using Supabase!" /> */}
       {/* <Experience title="Firebase or Supabase?" descrip="I am using Supabase!" /> */}
 
 
 
-     
+
+
 
 
 

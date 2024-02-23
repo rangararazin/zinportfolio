@@ -38,7 +38,7 @@ export const Projects = () => {
         <Card className="main-card">
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              NCNEWS
+              NC NEWS
             </Typography>
             <Typography variant="body2" color="text.secondary">
               A news website built with React which has functionality like
@@ -57,6 +57,52 @@ export const Projects = () => {
                 Backend
               </a>
             </Button>
+          </CardActions>
+        </Card>
+
+        <Card className="main-card">
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              NOTE APP
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+            Built with PHP and MySQL, Note app lets you create, read, update, and delete notes easily. My Note app simplifies note-taking and organization, enhancing productivity and efficiency.
+            </Typography>
+          </CardContent>
+          <CardActions className="card-button">
+            <Button size="small">
+              <a href="https://github.com/rangararazin/php-beginners">
+                Github
+              </a>
+            </Button>
+            {/* <Button size="small">
+              <a href="https://github.com/rangararazin/Front-End-Food-Life">
+                Backend
+              </a>
+            </Button> */}
+          </CardActions>
+        </Card>
+
+        <Card className="main-card">
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              STATIC WEBSITE HOSTING USING AWS
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+            While navigating my journey through AWS Solution Architect, this website marks my initial step and project, soon to be deployed on AWS utilizing its S3 static website hosting feature.
+            </Typography>
+          </CardContent>
+          <CardActions className="card-button">
+            <Button size="small">
+              <a href="">
+                Coming Soon...
+              </a>
+            </Button>
+            {/* <Button size="small">
+              <a href="https://github.com/rangararazin/Front-End-Food-Life">
+                Backend
+              </a>
+            </Button> */}
           </CardActions>
         </Card>
       </section>
