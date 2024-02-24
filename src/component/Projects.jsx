@@ -95,14 +95,14 @@ export const Projects = () => {
           <CardActions className="card-button">
             <Button size="small">
               <a href="http://mysitedemo.razinscloud.link">
-                DEMO SITE
+                DEMO
               </a>
             </Button>
-            {/* <Button size="small">
-              <a href="https://github.com/rangararazin/Front-End-Food-Life">
-                Backend
+            <Button size="small">
+              <a href="https://github.com/rangararazin/MystaticWebsite">
+                GITHUB
               </a>
-            </Button> */}
+            </Button>
           </CardActions>
         </Card>
       </section>
