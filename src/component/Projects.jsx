@@ -86,7 +86,7 @@ export const Projects = () => {
         <Card className="main-card">
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              STATIC WEBSITE HOSTING USING AWS
+              AWS S3 STATIC WEBSITE
             </Typography>
             <Typography variant="body2" color="text.secondary">
               While navigating my journey through AWS Solution Architect, this website marks my initial step and project, deployed on AWS utilizing its S3 static website hosting feature.
