@@ -89,7 +89,7 @@ export const Projects = () => {
               STATIC WEBSITE HOSTING USING AWS
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              While navigating my journey through AWS Solution Architect, this website marks my initial step and project, soon to be deployed on AWS utilizing its S3 static website hosting feature.
+              While navigating my journey through AWS Solution Architect, this website marks my initial step and project, deployed on AWS utilizing its S3 static website hosting feature.
             </Typography>
           </CardContent>
           <CardActions className="card-button">
