@@ -94,8 +94,8 @@ export const Projects = () => {
           </CardContent>
           <CardActions className="card-button">
             <Button size="small">
-              <a href="test">
-                Coming Soon...
+              <a href="http://mysitedemo.razinscloud.link.s3-website-us-east-1.amazonaws.com/index.html">
+                DEMO SITE
               </a>
             </Button>
             {/* <Button size="small">
